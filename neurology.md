@@ -81,3 +81,12 @@ PICA
 * ADEM
 
 ## hunchington病
+AD
+CAGリピート病
+尾状核
+
+## Fischer症候群
+抗ガングリシオド抗体
+
+## ADEM
+感染後に発症→中枢神経の白質
