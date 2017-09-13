@@ -26,7 +26,7 @@
 
 
 ## MSA
-優位なものので3つに分ける。
+優位なものので3つに分ける。hot cross sign
  * MSA-p：錐体外路障害
  * MSA-C：小脳
  * Shy-Drager：自律神経
@@ -84,6 +84,7 @@ PICA
 AD
 CAGリピート病
 尾状核
+舞踏病
 
 ## Fischer症候群
 抗ガングリシオド抗体
