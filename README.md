@@ -5,6 +5,7 @@
 
 ## それぞれの科目へのリンク
 * [神経内科](/sub/neurology.md)
+* [血液内科](/sub/hematopoietic.md)
 
 ## よろしければ
 活用してください。あとみんなで作りましょうpull request歓迎します。
