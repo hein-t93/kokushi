@@ -26,6 +26,7 @@ MEALSとか
 フェニルケトン尿症，ホモシスチン尿症，ウィルソン病(ATP7Bの変異)
 
 ## 常染色体陰性
+trplet desease系
 * ハンチントン舞踏病 (AD)
 * 脊髄小脳失調症１型（spinocerebellar ataxia 1；SCA1）、SCA2、SCA6、SCA7 (ADなどいろいろ)
 * 歯状核赤核淡蒼球ルイ体萎縮症 (AD)
