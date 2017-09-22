@@ -2,7 +2,9 @@
 
 参考(URL)[http://medi.atsuhiro-me.net/entry/2015/09/09/204159]
 
-## 伴性劣性
+
+## 伴性
+### 伴性劣性
 * A, B: 血友病A,B
 * C: Color→赤緑型色覚異常
 * D: Dystrophy (Duchenne, Becker)
@@ -14,19 +16,21 @@
 * M: 慢性肉芽腫症
 * W: Wiskott-Aldrich症候群
 
-## 伴性優性
+### 伴性優性
 * Alport症候群
 * Rett症候群
 * 色素失調症
 
-## ミトコンドリア
-MEALSとか
-
-## 常染色体優性
+## 常染色体
+### 常染色体劣性
 フェニルケトン尿症，ホモシスチン尿症，ウィルソン病(ATP7Bの変異)
 
-## 常染色体陰性
-trplet desease系
+### 常染色体優性
+* vWF
+
+
+### そのほか
+## trplet desease系
 * ハンチントン舞踏病 (AD)
 * 脊髄小脳失調症１型（spinocerebellar ataxia 1；SCA1）、SCA2、SCA6、SCA7 (ADなどいろいろ)
 * 歯状核赤核淡蒼球ルイ体萎縮症 (AD)
@@ -34,3 +38,5 @@ trplet desease系
 * 球脊髄性筋萎縮症 (XR)
 * フリードライヒ失調症 (AR)
 
+## ミトコンドリア
+MEALSとか
