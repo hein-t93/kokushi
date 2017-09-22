@@ -1,6 +1,9 @@
+
+[一覧に戻る](../README.md)
+
 # 遺伝性疾患
 
-参考(URL)[http://medi.atsuhiro-me.net/entry/2015/09/09/204159]
+参考[URL](http://medi.atsuhiro-me.net/entry/2015/09/09/204159)
 
 
 ## 伴性
