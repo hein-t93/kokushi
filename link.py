@@ -42,7 +42,10 @@ for row in f:
             tmp = row.strip("# ").strip("\r\n")
             link.write("* [" + tmp + "](#" + tmp + ")")
             link.writelines("\r\n")
-    body.write(row)
+    if row.startswith("[一番上へ]"):
+        pass
+    else:
+        body.write(row)
 
 
 f.close()
