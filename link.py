@@ -1,76 +1,64 @@
-# -*- coding: utf-8 -*- 
+# -*- coding: utf-8 -*-
 
 import codecs
+import markdown
+import os
+from html.parser import HTMLParser
 
-src="hematopoietic.md"
+sub_dir = "sub_/"
+tmp_dir = "tmp/"
 
-f = codecs.open('sub/' + src, 'r','utf-8')
-head = codecs.open("tmp/tmp_top.md","w","utf-8")
-link = codecs.open("tmp/tmp_link.md","w","utf-8")
-body = codecs.open("tmp/tmp_body.md","w","utf-8")
-title = ""
+parser_flag="none"
+html_dir =  tmp_dir + "tmp.html" 
+link_dir =  tmp_dir + "link.md"
 
-for row in f:
-    head.writelines(row)
-    if row.startswith("#"):
-        title = row.strip("# ").strip("\r\n")
-        break
+top = codecs.open(tmp_dir + "top.md", "w", "utf-8")
 
-for row in f:
-    if row.startswith("##"):
-        link.writelines("\r\n")
-        tmp = row.strip("# ").strip("\r\n")
-        link.write("* [" + tmp + "](#" + tmp + ")")
-        link.writelines("\r\n")
-        body.write("[一番上へ]" + "(#"+ title +")" )
-        body.writelines("\r\n")
-        body.write(row)
-        break
+md = markdown.Markdown()
+
+class myparser(HTMLParser):
+    def handle_starttag(self, tag, attrs):
+        None
+    def handle_endtag(self, tag, attrs):
+        None
+    def handle_data(self, data):
+        None
 
 
-for row in f:
-    if row.startswith("##"):
-        if row.startswith("####"):
-            pass
-        elif row.startswith("###"):
-            tmp = row.strip("# ").strip("\r\n")
-            link.write("    * [" + tmp + "](#" + tmp + ")")
-            link.writelines("\r\n")
-        else:
-            body.write("[一番上へ]" + "(#"+ title +")" )
-            body.writelines("\r\n")
-            tmp = row.strip("# ").strip("\r\n")
-            link.write("* [" + tmp + "](#" + tmp + ")")
-            link.writelines("\r\n")
-    if row.startswith("[一番上へ]"):
-        pass
-    else:
-        body.write(row)
 
 
-f.close()
-head.close()
-link.close()
-body.close()
 
-f = codecs.open('sub/' + src, 'w','utf-8')
-head = codecs.open("tmp/tmp_top.md","r","utf-8")
-link = codecs.open("tmp/tmp_link.md","r","utf-8")
-body = codecs.open("tmp/tmp_body.md","r","utf-8")
+# ディレクトリの中身を全部取得
+files = os.listdir(sub_dir)
+for file in files:
+    # markdownだけ処理
+    if ".md" in file:
+        head = codecs.open(tmp_dir + "head.md", "w", "utf-8")
+        body = codecs.open(tmp_dir + "tmp.md", "w", "utf-8")
+        src = codecs.open(sub_dir + file,"r","utf-8")
 
-for tar in head:
-    f.write(tar)
+        # htmlに変換して保存
+        tmp_html = codecs.open(tmp_dir + "tmp.html","w","utf-8")
+        tmp_html.write(md.convert(src.read()))
+        tmp_html.close()
 
+        #パーサーしてlink.mdに保管
+        tmp_html = codecs.open(tmp_dir + "tmp.html","r","utf-8")
+        parser = myparser()
+        parser.feed(tmp_html.read())
+        #parser.close()
 
-for  tar in link:
-    f.write(tar)
+        # bodyの処理
+        for row in src:
+            if row.startswith("##"):
+                flag = 1
+                if row.startswith("###"):
+                    None
+                else:
+                    body.write("[一番上へ](#" + parser.h1 + ")\r\n")
+            if row.startswith("[一番上へ]"):
+                None
+            else:
+                body.write(row)
+    
 
-f.write("\r\n")
-
-for tar in body:
-    f.write(tar)
-
-f.close()
-head.close()
-link.close()
-body.close()
