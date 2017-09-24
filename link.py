@@ -8,12 +8,19 @@ from html.parser import HTMLParser
 
 
 
-sub_dir = "sub_/"
+sub_dir = "sub/"
 tmp_dir = "tmp/"
 
 
-top = codecs.open(tmp_dir + "top.md", "w", "utf-8")
+top = codecs.open("README.md", "w", "utf-8")
+top.write(""""
+# 医師国家試験のメモ
 
+## What's about?
+医師国家試験の勉強にあたり個人的に作成したメモを公開しています。
+
+## それぞれの科目へのリンク
+""" + "\r\n")
 
 def toID(src):
     return src.strip("･").strip(" ").strip("#").strip("\r\n").strip().lower()
@@ -29,7 +36,7 @@ for file in files:
         src = codecs.open(sub_dir + file,"r","utf-8")
 
         flag = 0
-        page_titel = ""
+        page_title = ""
         page_id = ""
 
         # bodyの処理
@@ -64,6 +71,12 @@ for file in files:
         rs = codecs.open(tmp_dir + "body.md" , "r","utf-8")
         for r in rs:
             tar.write(r)
-         
+        
+        top.write("* [" + page_title + "](/sub/" + file + ")\r\n")
+top.write("""
+## よろしければ
+活用してください。あとみんなで作りましょうpull request歓迎します。\r\n\r\n""")
+top.close()
+
     
 
