@@ -13,7 +13,7 @@ tmp_dir = "tmp/"
 
 
 top = codecs.open("README.md", "w", "utf-8")
-top.write(""""
+top.write("""
 # 医師国家試験のメモ
 
 ## What's about?
@@ -23,7 +23,7 @@ top.write(""""
 """ + "\r\n")
 
 def toID(src):
-    return src.strip("･").strip(" ").strip("#").strip("\r\n").strip().lower()
+    return src.strip("･").strip(",").strip("#").strip("\r\n").strip().lower()
 
 # ディレクトリの中身を全部取得
 files = os.listdir(sub_dir)
