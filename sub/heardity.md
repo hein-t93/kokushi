@@ -47,6 +47,8 @@
 ### 常染色体優性
 * vWF
 * DiGeorge
+* FAP
+* Peuts-Jeghrs
 
 
 [一番上へ](#遺伝性疾患)
