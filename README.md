@@ -1,4 +1,4 @@
-"
+
 # 医師国家試験のメモ
 
 ## What's about?
@@ -6,6 +6,7 @@
 
 ## それぞれの科目へのリンク
 
+* [消化管，腹壁疾患](/sub/duct.md)
 * [肝胆膵](/sub/HBP.md)
 * [遺伝性疾患](/sub/heardity.md)
 * [血液-造血器疾患](/sub/hematopoietic.md)

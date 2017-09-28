@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import codecs
-import markdown
 import os
 import glob
 from html.parser import HTMLParser
