@@ -34,6 +34,7 @@
         * [FAP](#fap)
         * [Peutz-Jeghrs](#peutz-jeghrs)
         * [Cronkhite-Canada](#cronkhite-canada)
+        * [リンチ症候群](#リンチ症候群)
     * [癌てきなやる](#癌てきなやる)
         * [大腸ポリープ](#大腸ポリープ)
         * [大腸がん](#大腸がん)
