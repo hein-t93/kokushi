@@ -43,10 +43,13 @@
     * SCID
     * 毛細血管拡張性失調症
     * Chediak-Higashi
+* 心臓系
+    * Jervell and Lange-Nielsen症候群
 
 ### 常染色体優性
 * vWF
 * DiGeorge
+* Roman-Ward syndrome
 
 
 [一番上へ](#遺伝性疾患)

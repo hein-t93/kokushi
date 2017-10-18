@@ -6,6 +6,7 @@
 
 ## それぞれの科目へのリンク
 
+* [循環器](/sub/cardiology.md)
 * [消化管-腹壁疾患](/sub/duct.md)
 * [肝胆膵](/sub/HBP.md)
 * [遺伝性疾患](/sub/heardity.md)
