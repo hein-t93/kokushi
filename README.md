@@ -8,12 +8,16 @@
 
 * [循環器](/sub/cardiology.md)
 * [消化管-腹壁疾患](/sub/duct.md)
+* [内分泌](/sub/endocrine.md)
 * [肝胆膵](/sub/HBP.md)
 * [遺伝性疾患](/sub/heardity.md)
 * [血液-造血器疾患](/sub/hematopoietic.md)
 * [免疫アレルギー](/sub/Immune.md)
+* [感染症](/sub/infection.md)
 * [神経内科](/sub/neurology.md)
+* [小児](/sub/pediatric.md)
 * [呼吸器](/sub/respiratory.md)
+* [](/sub/産科.md)
 
 ## よろしければ
 活用してください。あとみんなで作りましょうpull request歓迎します。
