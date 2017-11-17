@@ -46,6 +46,8 @@
     * Chediak-Higashi
 * 心臓系
     * Jervell and Lange-Nielsen症候群
+* 皮膚とか
+    * 先天性白皮症
 
 ### 常染色体優性
 * vWF

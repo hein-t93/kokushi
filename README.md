@@ -7,6 +7,7 @@
 ## それぞれの科目へのリンク
 
 * [循環器](/sub/cardiology.md)
+* [皮膚](/sub/dermatology.md)
 * [消化管-腹壁疾患](/sub/duct.md)
 * [内分泌](/sub/endocrine.md)
 * [眼科](/sub/eye.md)
@@ -16,6 +17,8 @@
 * [免疫アレルギー](/sub/Immune.md)
 * [感染症](/sub/infection.md)
 * [神経内科](/sub/neurology.md)
+* [整形外科](/sub/othteo;ogy.md)
+* [耳鼻科](/sub/otolaryngology.md)
 * [小児](/sub/pediatric.md)
 * [精神科](/sub/psyco.md)
 * [腎臓](/sub/renal.md)
