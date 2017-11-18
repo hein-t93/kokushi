@@ -55,6 +55,7 @@
 * Roman-Ward syndrome
 * marfan
 * コツ形成不全
+* 家族性高コレステロール
 
 
 [一番上へ](#遺伝性疾患)
