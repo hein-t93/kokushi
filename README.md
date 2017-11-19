@@ -16,6 +16,7 @@
 * [血液-造血器疾患](/sub/hematopoietic.md)
 * [免疫アレルギー](/sub/Immune.md)
 * [感染症](/sub/infection.md)
+* [救急](/sub/mergency.md)
 * [代謝](/sub/metabolic.md)
 * [神経内科](/sub/neurology.md)
 * [その他](/sub/other.md)
