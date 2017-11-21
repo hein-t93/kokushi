@@ -6,6 +6,7 @@
 
 ## それぞれの科目へのリンク
 
+* [麻酔](/sub/anesthesia.md)
 * [循環器](/sub/cardiology.md)
 * [皮膚](/sub/dermatology.md)
 * [お薬](/sub/drug.md)
@@ -28,6 +29,7 @@
 * [腎臓](/sub/renal.md)
 * [産科](/sub/reproduct.md)
 * [呼吸器](/sub/respiratory.md)
+* [](/sub/輸液.md)
 
 ## よろしければ
 活用してください。あとみんなで作りましょうpull request歓迎します。
