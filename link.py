@@ -41,7 +41,11 @@ for file in files:
 
         # bodyの処理
         for row in src:
-            if row.startswith("####"):
+            if row.startswith("######"):
+                link.write("                * [" + row.strip("## ").strip("\r\n") + "](#" + toID(row) + ")\r\n")
+            elif row.startswith("#####"):
+                link.write("            * [" + row.strip("## ").strip("\r\n") + "](#" + toID(row) + ")\r\n")
+            elif row.startswith("####"):
                 link.write("        * [" + row.strip("## ").strip("\r\n") + "](#" + toID(row) + ")\r\n")
             elif row.startswith("###"):
                 link.write("    * [" + row.strip("## ").strip("\r\n") + "](#" + toID(row) + ")\r\n")

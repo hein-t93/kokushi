@@ -8,6 +8,7 @@
 
 * [循環器](/sub/cardiology.md)
 * [皮膚](/sub/dermatology.md)
+* [お薬](/sub/drug.md)
 * [消化管-腹壁疾患](/sub/duct.md)
 * [内分泌](/sub/endocrine.md)
 * [眼科](/sub/eye.md)
