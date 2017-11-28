@@ -20,6 +20,7 @@
 * [感染症](/sub/infection.md)
 * [救急](/sub/mergency.md)
 * [代謝](/sub/metabolic.md)
+* [新･神経](/sub/neo_neulorogy.md)
 * [神経内科](/sub/neurology.md)
 * [その他](/sub/other.md)
 * [整形外科](/sub/othteo;ogy.md)
@@ -29,7 +30,9 @@
 * [腎臓](/sub/renal.md)
 * [産科](/sub/reproduct.md)
 * [呼吸器](/sub/respiratory.md)
-* [](/sub/輸液.md)
+* [公衆衛生](/sub/公衆衛生.md)
+* [婦人科](/sub/婦人科.md)
+* [輸液](/sub/輸液.md)
 
 ## よろしければ
 活用してください。あとみんなで作りましょうpull request歓迎します。
