@@ -311,6 +311,16 @@ Hodgkin cell, R-S cell.
 Pel-Ebstein熱
 ABVD + Radiation  
 二峰性ピーク
+
+##### Non-Hodgkin
+予後
+* Age
+* Ldh
+* PS
+* Stage
+* Extranodule
+
+
 ##### DLBCL
 一番多い  
 C20+  
@@ -345,6 +355,11 @@ AIHA,ITPの合併
 C20(+),C23(+)  
 経過観察もあり  
 
+
+#### ATL
+HTLV  
+IL2
+
 #### 免疫グロブリン異常症
 ##### 多発性骨髄腫:CRAB
 高齢男性  
@@ -354,7 +369,8 @@ Mたんぱく，β2ミクログロブリン(予後因子)
 赤血球連銭形成  
 プロテアソーム阻害薬  
 サイアザイドは禁忌  
-VAD療法，MP療法
+VAD療法，MP療法  
+単クローン性のIgM
 
 ##### 原発性マクログロブリン血症
 成熟B細胞の増殖 → 単クローン性IgM  
