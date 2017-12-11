@@ -77,6 +77,7 @@ for file in files:
             tar.write(r)
         
         top.write("* [" + page_title + "](/sub/" + file + ")\r\n")
+
 top.write("""
 ## よろしければ
 活用してください。あとみんなで作りましょうpull request歓迎します。\r\n\r\n""")
