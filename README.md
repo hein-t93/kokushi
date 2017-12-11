@@ -29,6 +29,7 @@
 * [腎臓](/sub/renal.md)
 * [産科](/sub/reproduct.md)
 * [呼吸器](/sub/respiratory.md)
+* [泌尿器](/sub/urology.md)
 * [公衆衛生](/sub/公衆衛生.md)
 * [婦人科](/sub/婦人科.md)
 * [必修で初めてみたけい](/sub/必修.md)
