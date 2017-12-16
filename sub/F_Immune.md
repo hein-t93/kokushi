@@ -49,6 +49,7 @@
     * [Weber-Christain](#weber-christain)
     * [IgG4関連疾患](#igg4関連疾患)
     * [Reiter](#reiter)
+    * [Bechet](#bechet)
 
 
 [一番上へ](#f:免疫アレルギー)
