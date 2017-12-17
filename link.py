@@ -17,7 +17,7 @@ top.write("""
 # 医師国家試験のメモ
 
 ## What's about?
-医師国家試験の勉強にあたり個人的に作成したメモを公開しています。
+医師国家試験の勉強にあたり個人的に作成したメモを公開しています。頭文字は概ねメディッ○メディアの○B準拠です.
 
 ## それぞれの科目へのリンク
 """ + "\r\n")
@@ -41,7 +41,11 @@ for file in files:
 
         # bodyの処理
         for row in src:
-            if row.startswith("####"):
+            if row.startswith("######"):
+                link.write("                * [" + row.strip("## ").strip("\r\n") + "](#" + toID(row) + ")\r\n")
+            elif row.startswith("#####"):
+                link.write("            * [" + row.strip("## ").strip("\r\n") + "](#" + toID(row) + ")\r\n")
+            elif row.startswith("####"):
                 link.write("        * [" + row.strip("## ").strip("\r\n") + "](#" + toID(row) + ")\r\n")
             elif row.startswith("###"):
                 link.write("    * [" + row.strip("## ").strip("\r\n") + "](#" + toID(row) + ")\r\n")
@@ -73,6 +77,7 @@ for file in files:
             tar.write(r)
         
         top.write("* [" + page_title + "](/sub/" + file + ")\r\n")
+
 top.write("""
 ## よろしければ
 活用してください。あとみんなで作りましょうpull request歓迎します。\r\n\r\n""")
