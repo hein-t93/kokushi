@@ -426,6 +426,7 @@ saddle bag sign
 Xpでsingle bubble sign  
 造影でString sign  
 乳酸リンゲル液は禁忌.  
+アトロピン療法を待機的にやる.  
 
 ### 先天性十二指腸閉鎖
 羊水過多をおこす.  
