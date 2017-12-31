@@ -90,7 +90,8 @@ Barette食道から腺癌になる．
 食道24h Phモニタリング  
 PPI，H2RA，LES圧を下げるものの中止  
 Nissen手術  
-H.Pylori除菌後に増悪することあり
+H.Pylori除菌後に増悪することあり(胃酸があがるから.)
+
 
 ### M-Wsyndorome
 激しい嘔吐の反復のあとに吐血  
