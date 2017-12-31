@@ -91,6 +91,7 @@ Barette食道から腺癌になる．
 PPI，H2RA，LES圧を下げるものの中止  
 Nissen手術  
 H.Pylori除菌後に増悪することあり
+カルシウムブロッカーはGERDになる(LESが下がる)
 
 ### M-Wsyndorome
 激しい嘔吐の反復のあとに吐血  
