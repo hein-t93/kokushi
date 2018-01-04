@@ -60,7 +60,7 @@
 * Roman-Ward syndrome
 * marfan
 * コツ形成不全
-* 家族性高コレステロール
+* 家族性高コレステロール(2a型
 * 遺伝性球状赤血球症
 * HUnchington
 * machado-joseph
